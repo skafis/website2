@@ -8,20 +8,22 @@ Primary style
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 80.5%;
 }
 
 body {
   font-size: 1.6rem;
   font-family: "Sintony", sans-serif;
   color: #eaf2e3;
+    background-image: url(bg-1.jpg);
   background-color: #3a2c41;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 a {
-  color: #c0a672;
+  color: #e3b65d;
   text-decoration: none;
 }
 
