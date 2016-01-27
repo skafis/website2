@@ -61,3 +61,11 @@
     padding: 1.4em 1.8em;
   }
 }
+
+#section1 {
+    background-image: url(bg-3.jpg);
+}
+
+#section2 {
+    background-image: url(node.png)
+}
