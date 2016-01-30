@@ -47,3 +47,7 @@
 #section4 {
     background-image: url(star-wars-wallpapers1.jpg);
 }
+
+.portofolio {
+    display: inline-block;
+}
