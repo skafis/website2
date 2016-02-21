@@ -56,3 +56,8 @@ h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 45px;
 }
+
+.cd-intro img{
+    height: 70px;
+    width: 70;
+}
