@@ -61,3 +61,7 @@ h1 {
     height: 70px;
     width: 70;
 }
+
+.content p{
+    color: black;
+}
