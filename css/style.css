@@ -23,7 +23,7 @@ body {
 }
 
 a {
-  color: #fff;
+  color: #edd9c0;
   text-decoration: none;
 }
 
@@ -400,9 +400,9 @@ Content Sections - basic style
 .cd-section {
   /* vertically align its content*/
   display: table;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  background: #3a2c41;
+/*  background: #3a2c41;*/
 }
 .cd-section:nth-of-type(even) {
   background-color: #70557e;
@@ -417,7 +417,7 @@ Content Sections - basic style
   width: 90%;
   margin: 0 auto;
   text-transform: uppercase;
-  font-size: 2.4rem;
+  font-size: 50px;
   line-height: 1.4;
 }
 .cd-section h1 b, .cd-section h2 b {
@@ -673,5 +673,90 @@ Mask 2 css
 }
 
 
+.cd-section {
+    background-size: cover;
+}
+
+.cd-btn {
+  display: inline-block;
+  padding: 1.2em 1.4em;
+  font-size: 1.3rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background-color: #2e416a;
+  border-radius: .25em;
+  margin-right: 1.5em;
+}
+.cd-btn:nth-of-type(2) {
+  margin-right: 0;
+}
+.cd-btn.main-action {
+  background-color: #fb5e58;
+}
+@media only screen and (min-width: 480px) {
+  .cd-btn {
+    padding: 1.2em 1.6em;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .cd-btn {
+    padding: 1.4em 1.8em;
+  }
+}
+
+#section1 {
+/*    background-image: url(bg-3.jpg);*/
+    background-color: #c5d5cb
+}
+
+#section2 {
+/*    background-image: url(node.png)*/
+    background-color: #9fa8a3
+}
+
+#section3 {
+/*    background-image: url(bg-2.jpg)*/
+    background-color: #b3c2bf
+
+
+}
+
+#section4 {
+/*    background-image: url(star-wars-wallpapers1.jpg);*/
+    background-color: #c9c9c9;
+/*    align-content: flex-start;*/
+}
+#section4 img{
+
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 45px;
+}
+
+.cd-intro img{
+    height: 70px;
+    width: 70;
+}
+
+.content p{
+    color: black;
+}
+
+.content-wrapper h2{
+    color: black
+}
+
+.content-wrapper div{
+    color: black;
+    padding: 15px;
+}
+
+.form {
+    padding-left: 00px;
+}
 
 
