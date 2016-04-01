@@ -15,15 +15,15 @@ body {
   font-size: 1.6rem;
   font-family: "Sintony", sans-serif;
   color: #eaf2e3;
-    background-image: url(bg-1.jpg);
-  background-color: #3a2c41;
+/*    background-image: url(bg-1.jpg);*/
+/*  background-color: #3a2c41;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
 }
 
 a {
-  color: #e3b65d;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -524,6 +524,7 @@ Mask 2 css
   margin: 0 auto;
   padding: 2em 0;
   overflow: hidden;
+
 }
 .mask-2.cd-intro-content .content-wrapper::before {
   /* vertical bar */

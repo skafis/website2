@@ -33,19 +33,30 @@
 }
 
 #section1 {
-    background-image: url(bg-3.jpg);
+/*    background-image: url(bg-3.jpg);*/
+    background-color: #c5d5cb
 }
 
 #section2 {
-    background-image: url(node.png)
+/*    background-image: url(node.png)*/
+    background-color: #9fa8a3
 }
 
 #section3 {
-    background-image: url(bg-2.jpg)
+/*    background-image: url(bg-2.jpg)*/
+    background-color: #b3c2bf
+
+
 }
 
 #section4 {
-    background-image: url(star-wars-wallpapers1.jpg);
+/*    background-image: url(star-wars-wallpapers1.jpg);*/
+    background-color: #e9ece5
+
+
+}
+#section4 img{
+
 }
 
 .portofolio {
@@ -65,3 +76,13 @@ h1 {
 .content p{
     color: black;
 }
+
+.content-wrapper h2{
+    color: black
+}
+
+.content-wrapper div{
+    color: black;
+    padding: 15px;
+}
+
